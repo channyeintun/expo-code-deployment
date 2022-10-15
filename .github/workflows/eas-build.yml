@@ -43,5 +43,5 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
 
-      - name: Publish build
+      - name: Build APK
         run: eas build --platform android --profile development --non-interactive

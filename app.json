@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "cd-demo",
+    "package":"com.nexapp.native",
     "slug": "cd-demo",
     "version": "1.0.0",
     "orientation": "portrait",

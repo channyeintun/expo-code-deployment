@@ -43,6 +43,8 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
 
+      - name: List files
+        run: ls
+        
       - name: Publish build
-        working-directory: ./apps/expo
         run: eas build --platform android

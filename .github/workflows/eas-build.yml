@@ -43,8 +43,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --immutable
 
-      - name: List files
-        run: ls
-        
       - name: Publish build
+        working-directory: .
         run: eas build --platform android

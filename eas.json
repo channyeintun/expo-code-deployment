@@ -12,9 +12,6 @@
                   },
                   "credentialsSource": "remote"
             },
-            "preview": {
-                  "distribution": "internal"
-            },
             "production": {}
       },
       "submit": {
